@@ -1,0 +1,289 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  *{
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+  }
+
+  body {
+    background-color: pink;
+  }
+
+  .container {
+    background-color: white;
+    height: 332vh;
+    width: 900px;
+    margin-left: 220px;
+    margin-top: 100px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    height: 400px;
+    width: 780px;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+
+  h1,
+  h2 {
+    margin-left: 60px;
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2{
+    font-size: 2rem;
+    color: rgba(160, 50, 50, 0.87);
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+    margin-left: 60px;
+  }
+
+
+  .time {
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: papayawhip;
+    padding: 20px;
+    margin-left: 70px;
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+  }
+
+  .time-list li{
+    padding-left: 20px;
+  }
+  h3{
+    color: rgb(104, 18, 104);
+  }
+
+  .ing-list{
+    margin-left:62px ;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+   li{
+    padding-left:20px ;
+    color:  rgba(160, 50, 50, 0.87);
+    margin-top: 10px;
+  }
+  li span{
+    color: black;
+    font-family: "Comic Neue", cursive;
+font-weight: 400;
+font-style: normal;
+  }
+
+  .cook-list{
+    margin-left:62px ;
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cook-list li{
+    padding-left:20px ;
+  }
+
+  .instructions{
+    width:860px;
+    /* border:2px solid black */
+  }
+
+  hr{
+    width: 810px;
+    margin-top: 50px;
+  }
+
+ .nutrition hr{
+  margin-top: 10px;
+  }
+
+  .nutrition{
+    margin-bottom: 30px;
+    
+  }
+
+  .nutrition .start-para{
+    margin: 0px;
+    margin-left: 3.7rem;
+    font-family: "Comic Neue", cursive;
+font-weight: 400;
+font-style: normal;
+  }
+
+  .nutrition p {
+    margin-left: 7rem;
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+   .nutrition #Calories{
+    margin-top: 40px;
+  }
+
+  .nutrition li{
+    font-family: "Comic Neue", cursive;
+font-weight: 400;
+font-style: normal;
+  }
+
+  .nutrition .kcal{
+    margin-left: 25rem;
+    color:  rgba(160, 50, 50, 0.87);
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+  }
+
+  .nutrition .g{
+    margin-left: 27rem;
+    color:  rgba(160, 50, 50, 0.87);
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+  }
+
+  .nutrition .gg{
+    margin-left: 26.2rem;
+    color:  rgba(160, 50, 50, 0.87);
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+  }
+
+  .nutrition .ggg{
+    margin-left: 28rem;
+    color:  rgba(160, 50, 50, 0.87);
+    font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+  }
+
+  @media (max-width: 768px) {
+.container {
+  width: 95%;
+  margin: 20px auto;
+  border-radius: 20px;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  
+}
+
+.container p{
+  margin-left: 1.5rem;
+}
+
+h1 {
+  font-size: 2.5rem; /* Scale down the main heading */
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 1.5rem; /* Scale down secondary headings */
+}
+
+p, li {
+  font-size: 0.9rem; /* Adjust font size for readability */
+}
+
+.time{
+  margin-left: 0;
+  background-color: white;
+}
+
+.ingredients h2{
+  margin: 1.5rem;
+}
+
+.ing-list{
+  margin-left: 1rem;
+}
+
+.ing-list  li{
+  margin-left: 0;
+}
+
+.instructions h2{
+  margin: 1.5rem;
+}
+
+.instructions{
+  width: 300px;
+
+}
+.cook-list{
+  margin-left: 1rem;
+}
+
+.cook-list li{
+  font-size: small;
+}
+
+.nutrition h2{
+  margin: 1.5rem;
+}
+
+.nutrition .start-para{
+  margin-left: 1.5rem;
+}
+
+img {
+  margin-top: 0;
+  width: 100%; /* Ensure images are not larger than their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.time, .time-list li {
+  width: auto; /* Allow the time block to fit content */
+}
+
+.nutrition hr, hr {
+  width: calc(100% - 30px); /* Adjust the width of horizontal rules */
+  margin-left: 15px; /* Center horizontal rules */
+}
+
+.nutrition .kcal{
+    margin-left: 5rem;
+  }
+
+  .nutrition .g{
+    margin-left: 7.1rem;
+  }
+
+  .nutrition .gg{
+    margin-left: 6.5rem;
+  }
+
+  .nutrition .ggg{
+    margin-left: 8.2rem;
+  }
+  }
